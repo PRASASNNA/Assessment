@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: black;
+    }
+    div{
+        border: 1px solid white;
+        width: 550px;
+        height: 350px;
+        background-color: white;
+        border-radius: 20px;
+        text-align: center;
+        color: rgb(70, 14, 155);
+        margin-top: 150px;
+        margin-left: 300px;
+        
+        
+    }
+    input{
+        margin-top: 20px;
+        width: 460px;
+        height: 37px;
+        border: 1px solid #ccc;
+        
+    }
+    
+    input[placeholder="abc@xyx.com"],input[placeholder="Enter the password"],input[placeholder="Confirm your password"]{
+        padding-left: 18px;
+        font-style: italic;
+    }
+    input[type="button"]{
+        background-color: rgb(23, 136, 180);
+        color: white;
+        width: 480px;
+        height: 50px;
+        border-radius: 10px;
+        font-family: TagsXtreme2 ;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: TagsXtreme2;
+        src: url(customfont/TagsXtreme2.ttf);
+    }
+    .h2::after{
+        content: '->';
+    }
+    .h2::before{
+        content: '<-';
+    }
+    
+</style>
+<body>
+    <div>
+        <h2> <i class="h2">sign-up to access the application</i> </h2>
+        <form action=""> 
+            <input type="email" placeholder="abc@xyx.com" required/><br>
+            <input type="password" placeholder="Enter the password" required/><br>
+            <input type="password" placeholder="Confirm your password" required/>
+            <a href=""><input type="button" value="Sign up"></a>
+        </form>
+    </div>
+</body>
+
+</html>
