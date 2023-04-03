@@ -1,0 +1,87 @@
+body{
+    background-color: blue;
+}
+#hacker1{
+   border: 1px solid blue;
+   width: 1350px;
+   height: 65px;
+   background: linear-gradient(blue,rgb(83, 83, 211));
+}
+.hacker2{
+    padding-left: 780px;
+    
+    
+}
+.home{
+    border: 1px solid blue;
+    background: linear-gradient(blue,rgb(83, 83, 211));
+    color: antiquewhite;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.home:hover{
+    border: 1px solid yellow;
+    background: yellow;
+    color: rgb(59, 57, 57);
+    font-weight: bolder;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.more{
+    
+        border: 1px solid blue;
+        background: linear-gradient(blue,rgb(83, 83, 211));
+        color: antiquewhite;
+        font-weight: bolder;
+        font-size: 15px;
+   
+    
+}
+.more:hover{
+    border: 1px solid yellow;
+    background: yellow;
+    color: rgb(59, 57, 57);
+    font-weight: bolder;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.watch{
+    border: 1px solid blue;
+    background: linear-gradient(blue,rgb(83, 83, 211));
+    color: antiquewhite;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.watch:hover{
+    border: 1px solid yellow;
+    background: yellow;
+    color: rgb(59, 57, 57);
+    font-weight: bolder;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.buy{
+    border: 1px solid orangered;
+    background: orangered;
+    color: antiquewhite;
+    font-weight: bolder;
+    font-size: 15px;
+    width: 90px;
+    height: 30px;
+    border-radius: 7px;
+}
+.buy:hover{
+    color: black;
+}
+.start{
+    color: white;
+    font-size: 17px;
+}
+#hacker3{
+    border: 1px solid rgb(83, 83, 165);
+    width: 1350px;
+    height: 572px;
+    background: rgb(83, 83, 165);
+}
+
