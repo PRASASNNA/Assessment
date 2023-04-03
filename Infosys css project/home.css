@@ -1,0 +1,88 @@
+#div1 img{
+    width: 1350px;
+    height: 750px;
+    transform: translate(-10px,-8px);
+}
+#div2 img{
+    width: 200px;
+    height: 100px;
+    transform: translate(70px,-755px);
+}
+#div3{
+    width: 1130px;
+    height: 50px;
+    background-color: gray;
+    transform: translate(70px,-740px);
+    
+    
+    
+}
+#div3 a{
+    text-decoration: none;
+    padding: 10px 20px 10px 20px; 
+    margin-left: 30px;
+    color: white;
+    font-weight: bold;
+    font-family: serif;
+}
+#div3 a:hover{
+    text-decoration: none;
+    padding: 16px 20px 13px 20px;
+    background-color: rgb(214, 94, 94);
+    margin-left: 30px;
+    font-weight: bold;
+    font-family: serif;
+}
+#div4{
+    width: 760px;
+    height: 200px;
+    transform: translate(70px,-730px);
+    background-color: white;
+}
+#div4 a{
+    text-decoration: none;
+    color: rgb(206, 96, 53);
+    
+    
+    
+}
+.class1{
+    color: gray;
+}
+.class2{
+    color: rgb(51, 51, 59);
+}
+#div5{
+    width: 760px;
+    height: 240px;
+    transform: translate(70px,-720px);
+    background-color: white;
+}
+#div5 a{
+    text-decoration: none;
+    color: rgb(206, 96, 53);
+    
+}
+#div6{
+    width: 330px;
+    height: 130px;
+    background-color: white;
+    text-align: center;
+    transform: translate(850px,-1190px);
+    color: rgb(51, 51, 59);
+}
+#div7{
+    width: 1130px;
+    height: 50px;
+    background-color: gray;
+    transform: translate(70px,-1186px);
+}
+#div7 p a{
+    text-decoration: none;
+    color: rgb(194, 201, 98);
+    word-spacing: 10px;
+    
+}
+#div7 p{
+    padding: 13px 20px 0px 30px;
+}
